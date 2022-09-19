@@ -19,8 +19,9 @@ class App extends Component {
       console.log(this.state.currentTab);
     }
 
-    handleGit = () => {
-      window.open('https://github.com/jackyang9515?tab=repositories');
+    handleMyProj = () => {
+      this.setState({currentTab: 'My projects'});
+      console.log(this.state.currentTab);
     }
 
     handleResume = () => {
@@ -53,15 +54,12 @@ class App extends Component {
             <p className="headbar_element" id="divider">|</p>
 
             {/*button github, redirects user to my git acc*/}
-            <button className="headbar_element top_button" onClick={this.handleGit}>Github</button>
+            <button className="headbar_element top_button" onClick={this.handleMyProj}>My Projects</button>
 
           </div>
-          <div className="body_sec">
-            <img className="picture" src={selfie} alt="Please imagine my face here"/>
-            <span className="paragraph"><Paragraph topic={this.state.currentTab}/></span>
-          </div>
-
-          <p className="ending_line">__ ________________________________________________________________________ __</p>
+        
+        {/* Changes whatever is listed below the button panel*/}
+        <Paragraph topic={this.state.currentTab}/>
         </div>
       );
     }

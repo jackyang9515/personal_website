@@ -6,6 +6,11 @@ body {
   display: flex;
   /*justify-content: space-between;*/
   padding: 10px;
+  background-color: black;
+  position: fixed;
+  z-index: 99;
+  width: 100%;
+  opacity: 0.85;
 }
 
 .headbar_element {
@@ -13,6 +18,7 @@ body {
   background: transparent;
   border: none;
   font-family: "Sans-serif";
+  color: white;
   font-size: 120%;
 }
 
@@ -38,26 +44,21 @@ body {
   display: flex;
 }
 
-.picture {
-  height: 30%;
-  width: 30%;
-  border-radius: 50%;
+.paragraph_border {
   position: relative;
-  top: 100px;
+  top: 50px;
+  left: 200px;
+  font-size: 110%;
+  background-color: white;
+  border-radius: 10%;
+  height: 500px;
+  width: 700px;
 }
 
 .paragraph {
   position: relative;
-  top: 100px;
-  left: 250px;
-  font-size: 110%;
-}
-
-.ending_line {
-  padding: 0 0 15px 0;
-  position: relative;
-  top: 340px;
-  left: 500px;
+  top: 30px;
+  left: 30px;
 }
 
 
