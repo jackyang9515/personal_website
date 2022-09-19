@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f215c768.css",
+    "main.js": "/static/js/main.78afd398.js",
+    "static/media/terminal.webp": "/static/media/terminal.7f194aa0cc2322db0586.webp",
+    "static/media/selfie.jpeg": "/static/media/selfie.6a1b9704cf39accbefd1.jpeg",
+    "static/media/graduation_friends.jpeg": "/static/media/graduation_friends.9fb81cb865b74da6a0a0.jpeg",
+    "static/media/sunset_at_bahamas.jpeg": "/static/media/sunset_at_bahamas.2f56596ee41bad7a14fe.jpeg",
+    "static/media/learn_spanish.jpg": "/static/media/learn_spanish.377fc9bd8bc3e53921ee.jpg",
+    "static/media/onitama.jpeg": "/static/media/onitama.7417bbc7c7894fb0b3a9.jpeg",
+    "static/media/beige_background.webp": "/static/media/beige_background.e5e775441c5ce4108a0a.webp",
+    "static/media/three_musk.jpeg": "/static/media/three_musk.be959dbda3ec9dc908d3.jpeg",
+    "static/media/linkedin_icon.svg": "/static/media/linkedin_icon.32e20978a96ff60c1fdc5a8389e532ba.svg",
+    "index.html": "/index.html",
+    "main.f215c768.css.map": "/static/css/main.f215c768.css.map",
+    "main.78afd398.js.map": "/static/js/main.78afd398.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f215c768.css",
+    "static/js/main.78afd398.js"
+  ]
+}
